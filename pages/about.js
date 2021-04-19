@@ -1,10 +1,12 @@
+import Layout from '@/components/Layout';
+
 const AboutPage = () => {
   return (
-    <div>
+    <Layout title="About DJ Events">
       <h1>About page</h1>
       <p>Thjis is an app to find the last DJ and other musical events</p>
       <p>ver 1.0.0</p>
-    </div>
+    </Layout>
   );
 };
 

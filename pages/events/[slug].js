@@ -1,8 +1,11 @@
+import Layout from '@/components/Layout';
+
 const EventPage = () => {
+  const title = 'Event title';
   return (
-    <div>
+    <Layout title={title}>
       <h1>My event</h1>
-    </div>
+    </Layout>
   );
 };
 
